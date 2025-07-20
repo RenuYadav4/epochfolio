@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className='px-10 md:px-0 md:flex md:justify-evenly'>
                 {/* first */}
-                <div className='flex flex-col gap-5 px-10  text-sm md:text-[14px] lg:text-xl max-w-[60vh]'>
+                <div className='flex flex-col gap-5 px-10 lg:px-0 text-sm md:text-[14px] lg:text-xl max-w-[60vh]'>
                     <p className='max-w-[30vw]'>Organically grow holistic world view of dispute innovaion via empowerment.</p>
                     {/* with icons */}
                     <div className='flex flex-col gap-5'>
