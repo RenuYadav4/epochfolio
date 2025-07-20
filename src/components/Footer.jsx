@@ -99,7 +99,7 @@ const Footer = () => {
 
             </div>
             {/* final border */}
-            <div className='w-full mt-5 text-[8px] md:text-sm lg:text-lg lg:p-10 font-semibold bg-[#FF494B] flex justify-between p-4 md:px-8 text-[#000]'>
+            <div className='w-full mt-5 md:mt-10 text-[8px] md:text-sm lg:text-lg lg:p-10 font-semibold bg-[#FF494B] flex justify-between p-4 md:px-8 text-[#000]'>
                 <span>copyright by Epochfolio. All rights reserved</span>
                 <div className='flex gap-3 items-center'>
                     <a href="#">HOME</a>
