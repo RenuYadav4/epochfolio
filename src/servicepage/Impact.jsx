@@ -6,11 +6,11 @@ import Iconsgrid from './component/Iconsgrid'
 const Impact = () => {
     return (
         <div
-            className='bg-[#FFD196] h-[225vh] md:h-[130vh] lg:md:h-[140vh] relative overflow-hidden'
+            className='bg-[#FFD196] h-[225vh] md:h-[130vh] lg:h-[180vh] xl:h-[145vh] relative overflow-hidden'
             style={{
                 clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 95%)'
             }}
-        >            <div className='p-2   md:p-10 lg:px-65 flex flex-col md:gap-3'>
+        >            <div className='p-2   md:p-10 xl:px-60 flex flex-col md:gap-3'>
                 <div className='flex gap-2 items-center'>
                     <GoHorizontalRule className='text-[#ED666E] font-extrabold text-2xl' />
                     <h4 className='text-xs md:text-lg'>WHAT MAKES EPOCHFOLIO DIFFERENT?</h4>

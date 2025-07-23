@@ -7,7 +7,7 @@ import profile3 from '../assets/raj.png'
 
 const Matters = () => {
     return (
-        <div className='p-5 md:p-10 lg:p-20 lg:font-normal flex flex-col gap-10 text-sm lg:text-md xl:text-xl'>
+        <div className='p-5 md:p-5 lg:px-20 xl:px-60 lg:font-normal flex flex-col gap-10 text-sm lg:text-md xl:text-[16px]'>
             <div className='flex flex-col gap-5'>
                 <div className='flex gap-2 items-center'>
                     <GoHorizontalRule className='text-[#ED666E] font-extrabold text-2xl' />
