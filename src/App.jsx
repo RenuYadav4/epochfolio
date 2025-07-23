@@ -1,15 +1,21 @@
 import Bottom from "./Pages/Bottom"
 import Services from "./Pages/Services"
 import Trust from "./Pages/Trust"
+import Growth from "./servicepage/Growth"
+import Impact from "./servicepage/Impact"
+import Matters from "./servicepage/Matters"
 
 function App() {
 
   return (
     <>
-      <div className="flex flex-col gap-20 lg:gap-30">
-        <Trust />
+      <div className="lg:flex flex-col gap-10">
+        {/* <Trust />
         <Services />
-        <Bottom/>
+        <Bottom/> */}
+        <Growth/>
+        <Impact/>
+        <Matters/>
       </div>
 
     </>
